@@ -85,7 +85,7 @@ class ForgetMeNotApp:
         def show_tooltip(event):
             tooltip = tk.Toplevel(self.master)
             tooltip.wm_overrideredirect(True)
-            tooltip_label = ttk.Label(tooltip, text=alt_text, background="#FFFFE0", relief="solid", borderwidth=1)
+            tooltip_label = ttk.Label(tooltip, text=alt_text, background="#97c989", relief="solid", borderwidth=1)
             tooltip_label.pack()
 
             tooltip.geometry(f"+{event.x_root + 10}+{event.y_root + 10}")
